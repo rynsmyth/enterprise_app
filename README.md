@@ -6,4 +6,4 @@ Powerful Software
 
 ### Welcome to the Repo!
 
-Feel free to accesss [my profolio](#).
+Feel free to access [my portfolio](#).
