@@ -1,17 +1,13 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+get "welcome/index"
+get "welcome/about"
+get "welcome/contact"
+get 'welcome/faq'
+get "welcome/pricing"
+get "welcome/features"
 
-  get 'welcome/about'
+resources :invoices
 
-  get 'welcome/contact'
+root to: 'welcome#index'
 
-  get 'welcome/faq'
-
-  get 'welcome/pricing'
-
-  get 'welcome/features'
-
-  resources :invoices
-
-  root to: 'invoices#index'
 end
